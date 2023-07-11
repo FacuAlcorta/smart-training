@@ -1,7 +1,10 @@
 import React from 'react'
+import InfoCursos from './InfoCursos'
+import InfoNutri from './InfoNutri'
 
 const Hero = () => {
   return (
+    <>
     <div className='w-full h-screen'>
         <img className='top-0 left-0 w-full h-screen object-cover' src="https://hips.hearstapps.com/hmg-prod/images/mens-health-radox-recovery-shutterstock-675245371-1551802893.jpg?resize=2048:*" alt="bgimage" />
         <div className='absolute top-0 w-full h-full flex flex-col justify-center px-8 text-white'>
@@ -20,6 +23,9 @@ const Hero = () => {
             </div>
         </div>
     </div>
+    <InfoCursos />
+    <InfoNutri />
+    </>
   )
 }
 
