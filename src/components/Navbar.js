@@ -14,7 +14,7 @@ const Navbar = () => {
     // }
 
   return (
-    <nav className='fixed text-center w-full bg-transparent z-40'>
+    <nav className='absolute text-center w-full bg-transparent z-40'>
         <div className='flex text-center justify-between py-4 px-8'>
             <NavLink to="/" className='text-amber-500 font-semibold text-3xl cursor-pointer px-8'>ST</NavLink>
             <div className='hidden lg:block'>

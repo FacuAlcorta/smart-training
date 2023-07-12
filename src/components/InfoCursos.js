@@ -5,7 +5,7 @@ const InfoCursos = () => {
   return (
     <div className='flex flex-col justify-center lg:flex-row w-full bg-white sm:flex-col'>
         <div className='w-full lg:w-[50%] lg:flex-col text-center justify-center text-black'>
-            <h1 className='uppercase font-semibold text-3xl sm:text-4xl p-8 lg:text-start lg:text-4xl xl:text-5xl'>
+            <h1 className='uppercase font-semibold text-3xl border-b-2 border-slate-400 sm:text-4xl p-8 lg:text-start lg:text-4xl xl:text-5xl'>
                 Recibí un entrenamiento personalizado pensado solo para tus necesidades.
             </h1>
             <p className='p-8'>
@@ -18,7 +18,7 @@ const InfoCursos = () => {
             </p>
         </div>
         <div className='flex flex-col justify-center p-4 sm:p-16 md:p-16'>
-            <img className='rounded-3xl border-solid border-8 border-amber-500 ' src="https://static01.nyt.com/images/2020/01/06/well/04run-gym/04run-gym-superJumbo.jpg?quality=75&auto=webp" alt="Entrenamiento" />
+            <img className='rounded-3xl border-solid border-8 border-amber-500 shadow-2xl shadow-slate-600' src="https://static01.nyt.com/images/2020/01/06/well/04run-gym/04run-gym-superJumbo.jpg?quality=75&auto=webp" alt="Entrenamiento" />
         </div>
     </div>
   )
