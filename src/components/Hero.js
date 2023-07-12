@@ -2,6 +2,7 @@ import React from 'react'
 import InfoCursos from './InfoCursos'
 import InfoNutri from './InfoNutri'
 
+
 const Hero = () => {
   return (
     <>
