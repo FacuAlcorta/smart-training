@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className='absolute text-center w-full bg-transparent z-40'>
-        <div className='flex text-center justify-between backdrop-blur-sm py-4 px-8'>
+        <div className='flex text-center justify-between back py-4 px-8'>
             <NavLink to="/" className='text-amber-500 font-semibold text-3xl cursor-pointer px-8'>ST</NavLink>
             <div className='hidden lg:block'>
                 <div className='flex text-center font-bold text-lg'>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='flex text-center justify-center'>
-                <NavLink to="/dashboard"><VscAccount to="/dashboard" className='text-amber-500 text-5xl hidden lg:block'/></NavLink>
+                <NavLink to="/login"><VscAccount to="/dashboard" className='text-amber-500 text-5xl hidden lg:block'/></NavLink>
                 <VscMenu className='text-amber-500 text-5xl block lg:hidden'/>
             </div>
         </div>

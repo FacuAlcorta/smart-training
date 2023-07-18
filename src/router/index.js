@@ -5,9 +5,9 @@ import Nosotros from "../components/Nosotros"
 import Planes from "../components/Planes"
 import Servicios from "../components/Servicios"
 import Root from "../root/Root";
-import Dashboard from "../dashboard/Dashboard";
 import Contacto from "../components/Contacto";
 import Nutricion from "../components/Nutricion";
+import LogIn from "../components/LogIn";
 
 export const router = createBrowserRouter ([
     {
@@ -39,8 +39,8 @@ export const router = createBrowserRouter ([
                 element: <Contacto />
             },
             {
-                path: "/dashboard",
-                element: <Dashboard />,
+                path: "/login",
+                element: <LogIn />,
             },
         ]
     }
